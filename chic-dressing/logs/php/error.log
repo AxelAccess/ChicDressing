@@ -1,0 +1,139 @@
+[29-Nov-2023 15:22:14 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-config.php(105): require_once('C:\\Users\\maide\\...')
+#11 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\maide\\...')
+#12 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\maide\\...')
+#13 {main}
+  thrown in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[01-Dec-2023 08:22:57 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-config.php(105): require_once('C:\\Users\\maide\\...')
+#11 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\maide\\...')
+#12 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\maide\\...')
+#13 {main}
+  thrown in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[04-Dec-2023 09:44:13 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-config.php(105): require_once('C:\\Users\\maide\\...')
+#11 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\maide\\...')
+#12 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\maide\\...')
+#13 {main}
+  thrown in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[04-Dec-2023 16:13:22 UTC] PHP Warning:  Undefined array key "id_form" in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\views\front\widget_nl.php on line 125
+[04-Dec-2023 16:27:22 UTC] PHP Warning:  Undefined array key "id_form" in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\views\front\widget_nl.php on line 125
+[07-Dec-2023 07:38:53 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-config.php(105): require_once('C:\\Users\\maide\\...')
+#11 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\maide\\...')
+#12 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\maide\\...')
+#13 {main}
+  thrown in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[08-Dec-2023 10:09:54 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-config.php(105): require_once('C:\\Users\\maide\\...')
+#11 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\maide\\...')
+#12 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\maide\\...')
+#13 {main}
+  thrown in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[11-Dec-2023 06:28:44 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-config.php(105): require_once('C:\\Users\\maide\\...')
+#11 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\maide\\...')
+#12 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\maide\\...')
+#13 {main}
+  thrown in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[12-Dec-2023 07:27:49 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-config.php(105): require_once('C:\\Users\\maide\\...')
+#11 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\maide\\...')
+#12 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\maide\\...')
+#13 {main}
+  thrown in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[12-Dec-2023 08:35:25 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[18-Dec-2023 06:30:22 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-config.php(105): require_once('C:\\Users\\maide\\...')
+#11 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\maide\\...')
+#12 C:\Users\maide\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\maide\\...')
+#13 {main}
+  thrown in C:\Users\maide\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
